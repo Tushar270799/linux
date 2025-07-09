@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "enter number : " num
+if (( num > 0 )) ; then
+        echo "number $num is positive"
+elif (( num < 0 )) ; then
+        echo "number $num is negative"
+else
+        echo "number is zero"
+fi
